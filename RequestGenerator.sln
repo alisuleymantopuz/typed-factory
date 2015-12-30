@@ -1,0 +1,114 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequestGenerator.Domain", "RequestGenerator.Domain\RequestGenerator.Domain.csproj", "{9766D03D-F9C7-4BFD-B013-0A5A5ECB46B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequestGenerator.Domain.LightBank", "RequestGenerator.Domain.LightBank\RequestGenerator.Domain.LightBank.csproj", "{D0A08ADD-1C54-4982-8274-861B52442F8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequestGenerator.Domain.SoftBank", "RequestGenerator.Domain.SoftBank\RequestGenerator.Domain.SoftBank.csproj", "{8ECA9FC6-B56F-436A-BCC0-C2E304AB772C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequestGenerator.Domain.AlternatifBank", "RequestGenerator.Domain.AlternatifBank\RequestGenerator.Domain.AlternatifBank.csproj", "{C51AFBFC-8E2F-40C3-B2D6-7541E91077CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequestGenerator.Resources", "RequestGenerator.Domain.Resources\RequestGenerator.Resources.csproj", "{0B0490EE-7BE9-4586-BFBA-63F86BA9D764}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequestGenerator.Container", "RequestGenerator.Container\RequestGenerator.Container.csproj", "{6A98231F-1E4B-4AD4-8B05-7E33F2FC92F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequestGenerator.App", "RequestGenerator.App\RequestGenerator.App.csproj", "{E2819C10-15D4-46B3-8B2E-4FB9949E262C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{BF4C03DC-0621-456E-890C-6A962BE16DFB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{7EFECAFD-F1BA-4BED-9E6A-1F563A127B57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequestGenerator.Domain.DefaultBank", "RequestGenerator.Domain.DefaultBank\RequestGenerator.Domain.DefaultBank.csproj", "{28FECB88-E95D-4F57-991B-90A3117EA47E}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://developmentastpz.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = RequestGenerator.App\\RequestGenerator.App.csproj
+		SccProjectTopLevelParentUniqueName1 = RequestGenerator.sln
+		SccProjectName1 = RequestGenerator.App
+		SccLocalPath1 = RequestGenerator.App
+		SccProjectUniqueName2 = RequestGenerator.Container\\RequestGenerator.Container.csproj
+		SccProjectTopLevelParentUniqueName2 = RequestGenerator.sln
+		SccProjectName2 = RequestGenerator.Container
+		SccLocalPath2 = RequestGenerator.Container
+		SccProjectUniqueName3 = RequestGenerator.Domain.AlternatifBank\\RequestGenerator.Domain.AlternatifBank.csproj
+		SccProjectTopLevelParentUniqueName3 = RequestGenerator.sln
+		SccProjectName3 = RequestGenerator.Domain.AlternatifBank
+		SccLocalPath3 = RequestGenerator.Domain.AlternatifBank
+		SccProjectUniqueName4 = RequestGenerator.Domain.DefaultBank\\RequestGenerator.Domain.DefaultBank.csproj
+		SccProjectTopLevelParentUniqueName4 = RequestGenerator.sln
+		SccProjectName4 = RequestGenerator.Domain.DefaultBank
+		SccLocalPath4 = RequestGenerator.Domain.DefaultBank
+		SccProjectUniqueName5 = RequestGenerator.Domain.LightBank\\RequestGenerator.Domain.LightBank.csproj
+		SccProjectTopLevelParentUniqueName5 = RequestGenerator.sln
+		SccProjectName5 = RequestGenerator.Domain.LightBank
+		SccLocalPath5 = RequestGenerator.Domain.LightBank
+		SccProjectUniqueName6 = RequestGenerator.Domain.Resources\\RequestGenerator.Resources.csproj
+		SccProjectTopLevelParentUniqueName6 = RequestGenerator.sln
+		SccProjectName6 = RequestGenerator.Domain.Resources
+		SccLocalPath6 = RequestGenerator.Domain.Resources
+		SccProjectUniqueName7 = RequestGenerator.Domain.SoftBank\\RequestGenerator.Domain.SoftBank.csproj
+		SccProjectTopLevelParentUniqueName7 = RequestGenerator.sln
+		SccProjectName7 = RequestGenerator.Domain.SoftBank
+		SccLocalPath7 = RequestGenerator.Domain.SoftBank
+		SccProjectUniqueName8 = RequestGenerator.Domain\\RequestGenerator.Domain.csproj
+		SccProjectTopLevelParentUniqueName8 = RequestGenerator.sln
+		SccProjectName8 = RequestGenerator.Domain
+		SccLocalPath8 = RequestGenerator.Domain
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9766D03D-F9C7-4BFD-B013-0A5A5ECB46B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9766D03D-F9C7-4BFD-B013-0A5A5ECB46B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9766D03D-F9C7-4BFD-B013-0A5A5ECB46B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9766D03D-F9C7-4BFD-B013-0A5A5ECB46B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0A08ADD-1C54-4982-8274-861B52442F8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0A08ADD-1C54-4982-8274-861B52442F8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0A08ADD-1C54-4982-8274-861B52442F8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0A08ADD-1C54-4982-8274-861B52442F8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8ECA9FC6-B56F-436A-BCC0-C2E304AB772C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ECA9FC6-B56F-436A-BCC0-C2E304AB772C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ECA9FC6-B56F-436A-BCC0-C2E304AB772C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ECA9FC6-B56F-436A-BCC0-C2E304AB772C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C51AFBFC-8E2F-40C3-B2D6-7541E91077CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C51AFBFC-8E2F-40C3-B2D6-7541E91077CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C51AFBFC-8E2F-40C3-B2D6-7541E91077CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C51AFBFC-8E2F-40C3-B2D6-7541E91077CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B0490EE-7BE9-4586-BFBA-63F86BA9D764}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B0490EE-7BE9-4586-BFBA-63F86BA9D764}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B0490EE-7BE9-4586-BFBA-63F86BA9D764}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B0490EE-7BE9-4586-BFBA-63F86BA9D764}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A98231F-1E4B-4AD4-8B05-7E33F2FC92F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A98231F-1E4B-4AD4-8B05-7E33F2FC92F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A98231F-1E4B-4AD4-8B05-7E33F2FC92F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A98231F-1E4B-4AD4-8B05-7E33F2FC92F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2819C10-15D4-46B3-8B2E-4FB9949E262C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2819C10-15D4-46B3-8B2E-4FB9949E262C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2819C10-15D4-46B3-8B2E-4FB9949E262C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2819C10-15D4-46B3-8B2E-4FB9949E262C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28FECB88-E95D-4F57-991B-90A3117EA47E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28FECB88-E95D-4F57-991B-90A3117EA47E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28FECB88-E95D-4F57-991B-90A3117EA47E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28FECB88-E95D-4F57-991B-90A3117EA47E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D0A08ADD-1C54-4982-8274-861B52442F8E} = {7EFECAFD-F1BA-4BED-9E6A-1F563A127B57}
+		{8ECA9FC6-B56F-436A-BCC0-C2E304AB772C} = {7EFECAFD-F1BA-4BED-9E6A-1F563A127B57}
+		{C51AFBFC-8E2F-40C3-B2D6-7541E91077CE} = {7EFECAFD-F1BA-4BED-9E6A-1F563A127B57}
+		{0B0490EE-7BE9-4586-BFBA-63F86BA9D764} = {7EFECAFD-F1BA-4BED-9E6A-1F563A127B57}
+		{9766D03D-F9C7-4BFD-B013-0A5A5ECB46B9} = {7EFECAFD-F1BA-4BED-9E6A-1F563A127B57}
+		{28FECB88-E95D-4F57-991B-90A3117EA47E} = {7EFECAFD-F1BA-4BED-9E6A-1F563A127B57}
+		{E2819C10-15D4-46B3-8B2E-4FB9949E262C} = {BF4C03DC-0621-456E-890C-6A962BE16DFB}
+		{6A98231F-1E4B-4AD4-8B05-7E33F2FC92F3} = {BF4C03DC-0621-456E-890C-6A962BE16DFB}
+	EndGlobalSection
+EndGlobal
